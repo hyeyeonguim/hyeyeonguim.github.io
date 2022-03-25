@@ -1,19 +1,20 @@
-.popup {
+.popup{
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-
-.popup button {
+.popup img{
+    width: 300px;
+}
+.popup button{
     position: absolute;
-    bottom:50px;
-    right:50px;
-    background:#333;
-    color:#fff;
-    width:100px;
-    height:60px;
-    border:none;
-
+    bottom: 50px;
+    right: 50px;
+    background: #333;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    border: none;
+    /* 버튼 기본값 text-align: center  */
 }
